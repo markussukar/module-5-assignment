@@ -1,11 +1,30 @@
 # module-5-assignment
 coding practice
-118,7 +118,7 @@ function buildAndShowHomeHTML (categories) {
-      // var homeHtmlToInsertIntoMainPage = ....
+<DOCTYPE html>
+    <html>
+    <body>
+        <style type="text/css">
+            body{
+                
+                
+                background-color: aliceblue;
+            }    
+            
+            h1{
+                
+                text-align: center;
+                text-underline-position: below;
+                color: white;
+            }
+            
+            h2{
+                
+                color: black;
+            }
+        </style>
 
-
-      // TODO: STEP 4: Insert the the produced HTML in STEP 3 into the main page
-      // TODO: STEP 4: Insert the produced HTML in STEP 3 into the main page
-      // Use the existing insertHtml function for that purpose. Look through this code for an example
-      // of how to do that.
-      // ....
+    <p><h1><b>  welcome to our web development online training consultancy!</b></h1></p>
+        <p><i><h2>We are hightly excited to have you here, feel free and learn conveniently with us. we promise to assist you get in to your web development career.</p></i></h2>
+    
+    </body>    
+    </html>
